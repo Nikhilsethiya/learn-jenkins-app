@@ -16,6 +16,7 @@ pipeline {
             }
             steps {
                 sh '''
+                rm -rf node_modulesS
                 echo "Node.js Version:"
                 node --version
 
